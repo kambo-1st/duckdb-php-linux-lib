@@ -1,0 +1,27 @@
+{
+    "name": "kambo/duckdb-php-linux-lib",
+    "description": "This is my package duckdb-php-lib",
+    "keywords": [
+        "kambo-1st",
+        "duckdb-php-lib"
+    ],
+    "homepage": "https://github.com/kambo-1st/duckdb-php-linux-lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bohuslav Simek",
+            "email": "bohuslav@simek.si",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kambo\\DuckDBPHPLinuxLib\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
